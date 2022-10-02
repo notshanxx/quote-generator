@@ -55,9 +55,7 @@ function realCharQuoteGen(){
       quoteText.innerHTML = `"${quote[random].text}" <br/>
       - ${quote[random].author}`
       
-    }).catch(
-      quoteText.textContent = "Error occurred please try again :D"
-      )
+    })
   
 }
 
@@ -74,7 +72,7 @@ async function fictionalCharQuoteGen() {
       let random = Math.floor((Math.random() * quote.length))
       */
       
-      quoteText.innerHTML = `"${quote.quote}" <br/>
+      quoteText.innerHTML = `"${quote.quote}" <br> <br>
       - ${quote.character} <span style="color: #00FF3AA8;">| 
       "${quote.anime}" |</span>`
     
