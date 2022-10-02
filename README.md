@@ -2,7 +2,8 @@
 A quote generator from real life characters and fictional (anime) character 
 
 
-experimented
+
+I try to Experiment
 - fetch
 - async (?)
 - bootstrap
