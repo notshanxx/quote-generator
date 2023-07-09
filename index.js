@@ -65,7 +65,7 @@ async function fictionalCharQuoteGen() {
   quoteText.innerHTML = loadingDivEl
   
   
-  let quote = await fetch("https://animechan.vercel.app/api/random")
+  let quote = await fetch("https://animechan.xyz/api/random")
   .then(quote => quote.json())
   .then(quote => {
       /*
